@@ -1,3 +1,8 @@
+
+<?php
+require_once 'views/layout/header.php';
+?>
+
 <section class="login">
     <article class="login__content">
         <div class="login__form">
@@ -12,7 +17,7 @@
                 <div class="login__form__container-cmp">
                     <input class="login__form__content--cmp" type="password" id="clave" name="clave" placeholder="Contraseña" required>
                 </div>
-                <input class="login__form__content--btn" type="button" id="continuar" value="Continuar">
+                <input class="login__form__content--btn" type="button" id="continuar" name="enviar" value="Continuar">
                 <a class="login__form__content--a" href="">¿Olvidaste tu clave?</a>
             </div>
         </div>
@@ -21,3 +26,7 @@
         </figure>
     </article>
 </section>
+
+<?php
+require_once 'views/layout/footer.php';
+?>

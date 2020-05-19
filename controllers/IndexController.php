@@ -8,7 +8,14 @@ class IndexController extends Controller
 
     public function actionIndex()
     {
-        $this->view('index');
+        $datos = ["titulo" => "Bienvenidos"];
+        $this->view('index/index',$datos);
+    }
+
+    public function actionLogin()
+    {
+        $datos = ["titulo" => "Login App"];
+        $this->view('login/login',$datos);
     }
 
     

@@ -1,3 +1,8 @@
+
+<?php
+require_once 'views/layout/header.php';
+?>
+
 <section class="inicio">
     <article class="inicio__content">
         <div class="inicio__text">
@@ -8,7 +13,7 @@
                 Lorem Ipsum es un texto de marcador de posición comúnmente utilizado en las industrias gráficas, gráficas y editoriales para  previsualizar diseños y maquetas visuales.
             </p>
             <div class="inicio__boton">
-                <a class="inicio__boton--login" href="login.html">Iniciar sesión</a>
+                <a class="inicio__boton--login" href="<?=URL?>login">Iniciar sesión</a>
                 <a class="inicio__boton--registro" href="">Registrar</a>
             </div>
         </div>
@@ -17,3 +22,7 @@
         </figure>
     </article>
 </section>
+
+<?php
+require_once 'views/layout/footer.php';
+?>
