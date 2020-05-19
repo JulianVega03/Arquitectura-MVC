@@ -1,0 +1,27 @@
+$rojo: #E2061A;
+$gris: #f2f2f2;
+$gris2: #9F9F9F;
+$vinotinto: #B80000;
+
+@import "layout/header";
+@import "layout/footer";
+@import "index/index";
+@import "login/login";
+@import "perfil-residente/pr";
+
+*
+{
+    border: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+body
+{
+    overflow-x: hidden;
+}

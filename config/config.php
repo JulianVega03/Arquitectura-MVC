@@ -1,6 +1,6 @@
 <?php
 
-define ('URL','http://localhost/PHP-MVC/');
+define('URL','http://localhost/Arquitectura-MVC/');
 define('HOST','localhost');
 define('DB','nombre_db');
 define('USER','root');
