@@ -13,7 +13,7 @@
 	<header class="header">
 		<nav class="header__content">
 			<figure class="header__fig">
-				<img class="header__picture" src="<?=URL?>public/imagen/logo.png">
+			<a href="<?=URL?>"><img class="header__picture" src="<?=URL?>public/imagen/logo.png"></a>	
 			</figure>
 			<ul class="header__menu">
 				<li class="header__item">

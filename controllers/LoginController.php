@@ -6,7 +6,7 @@ class LoginController extends Controller
 
     public function __construct()
     {
-       $this->persona = $this->model('Persona')
+       $this->persona = $this->model('Persona');
     }
 
     public function actionIndex()
